@@ -1,0 +1,31 @@
+package cn.easyapi.rest.cache.base;
+
+/**
+ * @Author yangtc
+ * @Description 缓存标识前缀集合,常用在ConstantFactory类中
+ * @Date 下午4:32 2018/8/27
+ * @Param
+ * @return
+ **/
+public interface CacheKey {
+
+	String COMMON_CONFIGURE = "COMMON_CONFIGURE";
+	String COMMON_CONFIGURE_CODE = "COMMON_CONFIGURE_CODE";
+	String FIRST_NET_RULE = "FIRST_NET_RULE";
+	String FIRST_NET_RULE_LEVEL = "FIRST_NET_RULE_LEVEL";
+
+	String SECOND_NET_RULE = "SECOND_NET_RULE";
+	String SECOND_NET_RULE_LEVEL = "SECOND_NET_RULE_LEVEL";
+
+	String SECOND_NET_DYNAMIC_RULE = "SECOND_NET_DYNAMIC_RULE";
+	String SECOND_NET_DYNAMIC_RULE_LEVEL = "SECOND_NET_DYNAMIC_RULE_LEVEL";
+
+	String FIRST_NET_DYNAMIC_BONUS = "FIRST_NET_DYNAMIC_BONUS";
+	String FIRST_NET_DYNAMIC_BONUS_GENERATION = "FIRST_NET_DYNAMIC_BONUS_GENERATION";
+
+	String USER = "USER";
+	String USER_ID = "USER_ID";
+
+	String PREFIX_FOR_COIN = "COIN_";
+
+}

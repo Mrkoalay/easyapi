@@ -1,0 +1,2 @@
+
+docker run -p 80:80 -p 443:443 --name nginx --restart=always --network css_net --ip 172.18.0.4 -v /mnt/www:/www -v /mnt/nginx/conf/vhost:/etc/nginx/vhost -v /mnt/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /mnt/nginx/logs:/wwwlogs -d nginx
