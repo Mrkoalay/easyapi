@@ -33,7 +33,7 @@
 		<mybatisplus-spring-boot-starter.version>3.0.7.1</mybatisplus-spring-boot-starter.version>
 		<lombok.version>1.16.10</lombok.version>
 		<velocity.version>2.0</velocity.version>
-		<shiro.version>1.4.0</shiro.version>
+		<shiro.version>1.7.0</shiro.version>
 		<ehcache.version>3.3.1</ehcache.version>
 		<ehcache.core.version>2.6.11</ehcache.core.version>
 		<spring.cache>2.1.1.RELEASE</spring.cache>
