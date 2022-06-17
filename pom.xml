@@ -37,7 +37,7 @@
 		<ehcache.version>3.3.1</ehcache.version>
 		<ehcache.core.version>2.6.11</ehcache.core.version>
 		<spring.cache>2.1.1.RELEASE</spring.cache>
-        <fastjson.version>1.2.51</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
 		<redisson.version>3.6.5</redisson.version>
 	</properties>
 
